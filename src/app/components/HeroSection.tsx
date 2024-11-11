@@ -62,6 +62,7 @@ const HeroSection = () => {
                         </div>
                         <div className="mt-3 text-gray-400 text-sm sm:text-base lg:text-xl font-mono">
                             <p>Follow me or check out my profiles</p>
+                     
                         </div>
                     </div>
                 </div>
@@ -80,7 +81,6 @@ const HeroSection = () => {
                 </div>
             </div>
 
-          
         </section>
     );
 };

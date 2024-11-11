@@ -16,6 +16,7 @@ export default function Home() {
         <MySkills />
         <ProjectsSection />
         <Footer />
+        
       </div>
     </main>
   );
