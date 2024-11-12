@@ -69,15 +69,16 @@ const HeroSection = () => {
 
 
                 <div className="col-span-1 lg:col-span-5 flex justify-center items-center mt-3 sm:mt-0 lg:ml-[130px]">
-                    <div className="relative w-[200px] h-[200px] sm:w-[330px] sm:h-[300px]  lg:w-[450px] lg:h-[450px] lg:mt-0">
-                    <Image
-                            src="/My Profile.jpeg"
-                            alt="Image"
-                            className="absolute top-1/2 left-1/2 rounded-full shadow-lg  hover:shadow-green-300  border-r-gray-200 transition-shadow duration-200 -translate-x-1/2 -translate-y-1/2 lg:mt-0"
-                            width={250}
-                            height={200}
-                        />
-                    </div>
+                <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-3xl overflow-hidden transition-shadow duration-300 ease-in-out hover:shadow-[0_10px_25px_rgba(135,206,250,0.6)]">
+                 <Image
+                   src="/My Profile.jpeg" 
+                   alt="myprofile"
+                   layout="fill"
+                   objectFit="cover"
+                   className="rounded-3xl"
+                   
+                 />
+                 </div>
                 </div>
             </div>
 

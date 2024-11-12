@@ -55,7 +55,7 @@ const ProjectsSection = () => {
         className="text-center lg:mt-16 sm:mt-0 mx-auto max-w-screen-xl px-4 py-12 mb-18 relative"
       >
         
-        <div className="text-center mb-8 bg-black mt-0 px-10 py-14 mb-0 ">
+        <div className="text-center bg-black mt-0 px-10 py-14 mb-0">
           <h2 className="text-4xl font-bold text-white w-full h-full mt-0 ">Projects</h2>
           <div className="w-24 mx-auto border-b-4 border-purple-500 mb-2"></div>
           <p className="mt-5 sm:text-xl lg:text-lg font-semibold text-gray-300">Things I’ve built so far</p>

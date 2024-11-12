@@ -23,7 +23,12 @@ const ContactPage = () => {
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <FaEnvelope className="text-2xl text-teal-400" />
-            <p className="text-lg text-gray-200">awanareeba40@gmail.com</p>
+            <a
+              href="https://awanareeba40@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg text-gray-300 hover:text-teal-400 transition duration-300"
+            >Connect with me via email</a>
           </div>
 
           <div className="flex items-center space-x-3">
@@ -44,7 +49,7 @@ const ContactPage = () => {
               href="https://github.com/areeba-awan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lg text-gray-300 hover:text-gray-400 transition duration-300"
+              className="text-lg text-gray-300 hover:text-purple-400 transition duration-300"
             >
               Lets collaborate on GitHub
             </a>
